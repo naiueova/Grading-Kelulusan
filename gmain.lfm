@@ -1,0 +1,98 @@
+object Form1: TForm1
+  Left = 377
+  Height = 502
+  Top = 185
+  Width = 559
+  Caption = 'Form1'
+  ClientHeight = 502
+  ClientWidth = 559
+  DesignTimePPI = 144
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 88
+    Height = 25
+    Top = 88
+    Width = 56
+    Caption = 'Nama :'
+  end
+  object Label2: TLabel
+    Left = 88
+    Height = 25
+    Top = 144
+    Width = 43
+    Caption = 'Nilai :'
+  end
+  object edtNama: TEdit
+    Left = 168
+    Height = 33
+    Top = 80
+    Width = 152
+    TabOrder = 0
+  end
+  object edtNilai: TEdit
+    Left = 168
+    Height = 33
+    Top = 136
+    Width = 152
+    TabOrder = 1
+  end
+  object btnHitung: TButton
+    Left = 112
+    Height = 38
+    Top = 232
+    Width = 137
+    Caption = 'Hitung Nilai'
+    TabOrder = 2
+    OnClick = btnHitungClick
+  end
+  object Panel1: TPanel
+    Left = 352
+    Height = 502
+    Top = 0
+    Width = 207
+    Align = alRight
+    ClientHeight = 502
+    ClientWidth = 207
+    Color = clBlack
+    ParentBackground = False
+    ParentColor = False
+    TabOrder = 3
+    object Label3: TLabel
+      Left = 8
+      Height = 1
+      Top = 40
+      Width = 1
+      Font.Color = clWhite
+      Font.Height = -26
+      ParentFont = False
+    end
+    object lblGrade: TLabel
+      Left = 48
+      Height = 1
+      Top = 264
+      Width = 1
+      Font.Color = clNone
+      Font.Height = -160
+      ParentFont = False
+    end
+    object lblStatus: TLabel
+      Left = 8
+      Height = 1
+      Top = 80
+      Width = 1
+      Font.Color = clGreen
+      Font.Height = -26
+      ParentFont = False
+      OnClick = lblStatusClick
+    end
+    object Label4: TLabel
+      Left = 8
+      Height = 1
+      Top = 120
+      Width = 1
+      Font.Color = clNone
+      Font.Height = -26
+      ParentFont = False
+    end
+  end
+end
